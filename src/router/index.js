@@ -10,7 +10,7 @@ const routes = [
     meta: {
       title: "单一阈值"
     },
-    component: () => import(/* webpackChunkName: "about" */ '../views/SingleThreshold.vue')
+    component: () => import(/* webpackChunkName: "single-threshold" */ '../views/SingleThreshold.vue')
   },
   {
     path: '/otsu',
@@ -18,7 +18,7 @@ const routes = [
     meta: {
       title: "OTSU法"
     },
-    component: () => import(/* webpackChunkName: "about" */ '../views/OTSU.vue')
+    component: () => import(/* webpackChunkName: "otsu" */ '../views/OTSU.vue')
   },
   {
     path: '/sauvola',
@@ -26,7 +26,7 @@ const routes = [
     meta: {
       title: "Sauvola法"
     },
-    component: () => import(/* webpackChunkName: "about" */ '../views/Sauvola.vue')
+    component: () => import(/* webpackChunkName: "sauvola" */ '../views/Sauvola.vue')
   }
 ]
 
