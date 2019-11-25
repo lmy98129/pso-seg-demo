@@ -20,7 +20,7 @@
       </div>
       <!-- NavBar Right Button -->
       <div>
-        <a href="http://github.com/lmy98129">
+        <a href="https://github.com/lmy98129/pso-seg-demo" target = '_BLANK'>
           <div class="nav-bar-right button github-btn">GitHub</div>
         </a>
         <div class="menu-btn iconfont icon-menu" style="display: none" @click="switchMenuVisible"></div>
