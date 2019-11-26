@@ -56,6 +56,10 @@ p {
   padding: 0;
 }
 
+body {
+  background: #fff;
+}
+
 a {
   text-decoration: none;
 }
